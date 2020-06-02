@@ -1,3 +1,5 @@
+package com.pkwenda.github.example;
+
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
@@ -6,7 +8,7 @@ import org.apache.rocketmq.remoting.common.RemotingHelper;
 /**
  * @author wenda.zhuang
  * @Date 2020/6/1 23:56
- * @Description ...
+ * @Description 同步生产：https://github.com/pkwenda/Blog/issues/31
  * @E-mail sis.nonacosa@gmail.com
  */
 public class SyncProducer {

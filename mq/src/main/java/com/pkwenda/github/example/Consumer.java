@@ -1,16 +1,14 @@
+package com.pkwenda.github.example;
+
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
-import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.client.exception.MQClientException;
-import org.apache.rocketmq.common.message.MessageExt;
-
-import java.util.List;
 
 /**
  * @author wenda.zhuang
  * @Date 2020/6/2 01:05
- * @Description ...
+ * @Description 消费：https://github.com/pkwenda/Blog/issues/31
  * @E-mail sis.nonacosa@gmail.com
  */
 public class Consumer {
@@ -33,6 +31,6 @@ public class Consumer {
 		});
 		// 启动消费者实例
 		consumer.start();
-		System.out.printf("Consumer Started.%n");
+		System.out.printf("com.pkwenda.github.example.Consumer Started.%n");
 	}
 }

@@ -1,3 +1,5 @@
+package com.pkwenda.github.example;
+
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
@@ -10,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author wenda.zhuang
  * @Date 2020/6/2 00:57
- * @Description ...
+ * @Description 异步生产：https://github.com/pkwenda/Blog/issues/31
  * @E-mail sis.nonacosa@gmail.com
  */
 public class AsyncProducer {
